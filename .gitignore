@@ -1,0 +1,94 @@
+# ========================================
+# DATASETS (NE PAS PUSH)
+# ========================================
+data/
+datasets/
+fer2013/
+affectnet/
+rafdb/
+FER2013/
+AffectNet/
+RAF-DB/
+RAVDESS/
+
+# Fichiers de données
+*.csv
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ========================================
+# MODÈLES ENTRAÎNÉS (TROP LOURDS)
+# ========================================
+models/*.h5
+models/*.pkl
+models/*.pt
+models/*.pth
+models/checkpoints/
+*.h5
+*.pkl
+*.pt
+*.pth
+*.model
+*.weights
+
+# ========================================
+# PYTHON
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========================================
+# JUPYTER NOTEBOOKS
+# ========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ========================================
+# IDEs
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================================
+# OS
+# ========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================================
+# LOGS
+# ========================================
+logs/
+*.log
+tensorboard/
+
+# ========================================
+# TEMPORAIRES
+# ========================================
+results/temp/
+*.tmp
+temp/
+tmp/
+
+# ========================================
+# SECRETS
+# ========================================
+.env
+config.ini
+*.key
+secrets.json
