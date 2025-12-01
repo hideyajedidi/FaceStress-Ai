@@ -14,7 +14,7 @@ Performances : 55.87% accuracy | F1-Score Normal: 70.35%
 🚀 Installation
 
 bash# Cloner le repository
-git clone https://github.com/VOTRE-USERNAME/FaceStress-AI.git
+git clone "https://github.com/hideyajedidi/FaceStress-Ai.git
 cd FaceStress-AI
 
 # Installer les dépendances
